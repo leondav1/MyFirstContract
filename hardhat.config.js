@@ -4,7 +4,7 @@ require("@nomiclabs/hardhat-waffle");
 require("solidity-coverage");
 require("@nomiclabs/hardhat-web3");
 const { API_URL, PRIVATE_KEY } = process.env;
-require('./tasks/tasks');
+// require('./tasks/tasks');
 
 /**
  * @type import('hardhat/config').HardhatUserConfig
